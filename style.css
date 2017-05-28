@@ -1,0 +1,40 @@
+.introduction, .salutations {
+    color: blue;
+}
+
+p{
+    font-size: 1em; /* Paragraphes de 14 pixels */
+}
+
+h1{
+    font-size: 1.5em; /* Titres de 40 pixels */
+}
+
+h1 /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+}
+
+
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('learning_curve_bold_ot_ps-webfont.eot');
+    src: url('learning_curve_bold_ot_ps-webfont.eot?#iefix') format('embedded-opentype'),
+         url('learning_curve_bold_ot_ps-webfont.woff') format('woff'),
+         url('learning_curve_bold_ot_ps-webfont.ttf') format('truetype'),
+         url('learning_curve_bold_ot_ps-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+
+/*
+Police supporté par les navigateurs
+Arial ;
+Arial Black ;
+Comic Sans MS ;
+Courier New ;
+Georgia ;
+Impact ;
+Times New Roman ;
+Trebuchet MS ;
+Verdana.
+ */
